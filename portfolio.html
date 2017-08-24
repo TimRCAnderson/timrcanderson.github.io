@@ -3,101 +3,73 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-	<!-- Bootstrap -->
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-	<!-- Optional theme -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-	<link rel="stylesheet" href="assets/css/theme.css">
+	<!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
 
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 	<title>Timothy Anderson: Portfolio</title>
 </head>
 <body>
-	<nav class="navbar navbar-default">
-		<div class="container">
-			<!-- Brand and toggle get grouped for better mobile display -->
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<div class="navbar-brand">Timothy Anderson</div>
-			</div>
+	<nav>
+    <div class="nav-wrapper container">
+      <a href="#" class="brand-logo"><img class="header logo" src="assets/images/TimothyRCAnderson_Logo.svg" alt="Logo"/></a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+				<li><a href="index.html">About</a></li>
+				<li><a href="#">Portfolio</a></li>
+				<!-- <li><a href="contact.html">Contact</a></li> -->
+      </ul>
+    </div>
+  </nav>
 
-			<!-- Collect the nav links, forms, and other content for toggling -->
-			<div class="collapse navbar-collapse" id="myNavbar">
-				<ul class="nav navbar-nav navbar-right">
-					<li><a href="index.html">About</a></li>
-					<li><a href="portfolio.html">Portfolio</a></li>
-					<li><a href="contact.html">Contact</a></li>
-				</ul>
-			</div><!-- /.navbar-collapse -->
-		</div><!-- /.container-fluid -->
-	</nav>
-
-	<div class="container">
+	<div class="container down-shift">
 		<div class="row">
-			<div class="col-md-8">
-				<section class="panel panel-default">
-					<div class="panel-heading">
-						<h2>Portfolio</h2>
-					</div>
-					<div class="panel-body">
-						<div class="container-fluid">
-						<div class="row">
-							<div class="port_Item col-md-6 col-sm-6 col-xs-12">
-								<a href=""><img class="img-responsive" src="assets/images/cats-q-c-640-480-8.jpg" alt="Hangman"></a>
-								<div class="imgtxt">Hangman</div>
-							</div>
-							<div class="port_Item col-md-6 col-sm-6 col-xs-12">
-								<a href=""><img class="img-responsive" src="assets/images/technics-q-c-640-480-2.jpg" alt="RPG Game"></a>
-								<div class="imgtxt">RPG Game</div>
-							</div>
-							<div class="port_Item col-md-6 col-sm-6 col-xs-12">
-								<a href=""><img class="img-responsive" src="assets/images/technics-q-c-640-480-4.jpg" alt="Trivia Game"></a>
-								<div class="imgtxt">Trivia Game</div>
-							</div>
-							<div class="port_Item col-md-6 col-sm-6 col-xs-12">
-								<a href=""><img class="img-responsive" src="assets/images/cats-q-c-640-480-9.jpg" alt="Rutgers Info Widget"></a>
-								<div class="imgtxt">Rutgers Info Widget</div>
-							</div>
-							<div class="port_Item col-md-6 col-sm-6 col-xs-12">
-								<a href=""><img class="img-responsive" src="assets/images/technics-q-c-640-480-8.jpg" alt="Rock Paper Scissors"></a>
-								<div class="imgtxt">Rock Paper Scissors</div>
-							</div>
+			<div class="col m8">
+				<section class="panel">
+					<h2>Portfolio</h2>
+					<div class="row">
+						<div class="port_Item col m6 s6 down-shift">
+							<a class="imglink" href="https://timrcanderson.github.io/Hangman-Game/"><img class="responsive-img" src="assets/images/timrcanderson.github.io-Hangman-Game-.png" alt="Hangman"><div class="imgtxt">Hangman</div></a>
 						</div>
+						<div class="port_Item col m6 s6 down-shift">
+							<a class="imglink" href="https://timrcanderson.github.io/Choose-A-Brew/"><img class="responsive-img" src="assets/images/timrcanderson.github.io-Choose-A-Brew-1.png" alt="Choose-a-Brew"><div class="imgtxt">Choose-a-Brew</div></a>
+						</div>
+						<div class="port_Item col m6 s6 down-shift">
+							<a class="imglink" href="https://timrcanderson.github.io/TriviaGame/"><img class="responsive-img" src="assets/images/timrcanderson.github.io-TriviaGame-1.png" alt="Trivia Game"><div class="imgtxt">Trivia Game</div></a>
+						</div>
+						<div class="port_Item col m6 s6 down-shift">
+							<a class="imglink" href="https://timrcanderson.github.io/Train-Schedule/"><img class="responsive-img" src="assets/images/timrcanderson.github.io-Train-Schedule-(iPad).png" alt="Train scheduler"><div class="imgtxt">Train scheduler</div></a>
+						</div>
+						<div class="port_Item col m6 s6 down-shift">
+							<a class="imglink" href="https://timrcanderson.github.io/Psychic-Game/"><img class="responsive-img" src="assets/images/timrcanderson.github.io-Psychic-Game-(iPad).png" alt="Psychic game"><div class="imgtxt">Psychic game</div></a>
 						</div>
 					</div>
 				</section>
 			</div>
-			<div class="col-md-4">
-				<aside class="panel panel-default">
-					<div class="panel-heading">
-						<h3>Connect with me</h3>
-					</div>
-					<div class="panel-body">
-						<div class="container-fluid">
+			<div class="col m4">
+				<aside class="panel">
+					<h3>Connect with me</h3>
+					<div>
+						<div class="container">
 							<div class="row">
-								<div class="col-md-4 col-sm-2 col-xs-4">
-									<a href="https://github.com/timrcanderson" target="_blank"><img class="img-responsive" src="assets/images/github-logo-icon-30.png" alt="Github"/></a>
+								<div class="col s4">
+									<a href="https://github.com/timrcanderson" target="_blank"><img class="responsive-img" src="assets/images/GitHub-Mark-64px.png" alt="Github"/></a>
 								</div>
-								<div class="col-md-4 col-sm-2 col-xs-4">
-									<a href="https://www.linkedin.com/in/timothyrcanderson" target="_blank"><img class="img-responsive" src="assets/images/linkedin-logo.png" alt="LinkedIn"/></a>
+								<div class="col s4">
+									<a href="https://www.linkedin.com/in/timothyrcanderson" target="_blank"><img class="responsive-img" src="assets/images/In-2C-66px-TM.png" alt="LinkedIn"/></a>
 								</div>
-								<div class="col-md-4 col-sm-2 col-xs-4">
-									<a href="http://stackoverflow.com/users/7517717/timothy-anderson" target="_blank"><img class="img-responsive" src="assets/images/so-icon.png" alt="Stack Overflow"/></a>
+								<div class="col s4">
+									<a href="http://stackoverflow.com/users/7517717/timothy-anderson" target="_blank"><img class="responsive-img" src="assets/images/so-icon.png" alt="Stack Overflow"/></a>
 								</div>
 								<div class="col-sm-6">
 								</div>
@@ -108,10 +80,12 @@
 			</div>
 		</div>
 	</div>
-	<footer class="container-fluid">
-		<div class="row">
-			&copy;Copyright Timothy Anderson 2017
-		</div>
+	<footer class="page-footer">
+		<div class="footer-copyright">
+	    <div class="container">
+				&copy;Copyright Timothy Anderson 2017
+	    </div>
+	  </div>
 	</footer>
 
 </body>
