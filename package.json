@@ -1,0 +1,30 @@
+{
+  "name": "timrcanderson.github.io",
+  "version": "1.0.0",
+  "description": "Github Pages portfolio site for Timothy Richard Clark Anderson",
+  "main": "index.html",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TimRCAnderson/timrcanderson.github.io.git"
+  },
+  "author": "Timothy Richard Clark Anderson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TimRCAnderson/timrcanderson.github.io/issues"
+  },
+  "homepage": "https://github.com/TimRCAnderson/timrcanderson.github.io#readme",
+  "dependencies": {
+    "react": "^16.1.1",
+    "react-dom": "^16.1.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^3.8.1"
+  }
+}
